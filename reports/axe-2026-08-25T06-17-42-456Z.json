@@ -1,0 +1,2577 @@
+{
+  "generated": "2026-08-25T06:17:42.456Z",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa"
+  ],
+  "pages": [
+    {
+      "url": "https://trinidadstate.edu/",
+      "title": "Trinidad State College Home Page",
+      "finalUrl": "https://trinidadstate.edu/",
+      "slug": "home",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 106,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/100/",
+      "title": "100th Anniversary",
+      "finalUrl": "https://trinidadstate.edu/100/",
+      "slug": "100",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#mf_iframe .uppy-Dashboard"
+          ]
+        },
+        {
+          "id": "aria-required-children",
+          "impact": "critical",
+          "help": "Certain ARIA roles must contain particular children",
+          "wcag": [
+            "wcag2a",
+            "wcag131"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#mf_iframe .uppy-Dashboard-AddFiles-list"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 49,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-item:nth-child(3) > a[href$=\"tsc\"][rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".navbar.navbar-expand-lg.navbar-light:nth-child(2) > .navbar-collapse.collapse"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/1925/articles/legacy.html",
+      "title": "Society of 1925 Article Legacy",
+      "finalUrl": "https://trinidadstate.edu/1925/articles/legacy.html",
+      "slug": "1925-articles-legacy-html",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 50,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-item:nth-child(3) > a[href$=\"tsc\"][rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".navbar.navbar-expand-lg.navbar-light:nth-child(2) > .navbar-collapse.collapse"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/a-z.html",
+      "title": "A to Z Index",
+      "finalUrl": "https://trinidadstate.edu/a-z.html",
+      "slug": "a-z-html",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 56,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/about/",
+      "title": "About Trinidad State",
+      "finalUrl": "https://trinidadstate.edu/about/",
+      "slug": "about",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 68,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".navbar.navbar-expand-lg.navbar-light:nth-child(2) > .navbar-collapse.collapse"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/about/web_policies.html",
+      "title": "Web Policies",
+      "finalUrl": "https://trinidadstate.edu/about/web_policies.html",
+      "slug": "about-web-policies-html",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 49,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".navbar.navbar-expand-lg.navbar-light:nth-child(2) > .navbar-collapse.collapse"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/academic-calendar/",
+      "title": "Trinidad State Academic Calendar",
+      "finalUrl": "https://trinidadstate.edu/academic-calendar/",
+      "slug": "academic-calendar",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 54,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/academics/",
+      "title": "Academic Programs",
+      "finalUrl": "https://trinidadstate.edu/academics/",
+      "slug": "academics",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 69,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/accreditation/",
+      "title": "Accreditations and Affiliations",
+      "finalUrl": "https://trinidadstate.edu/accreditation/",
+      "slug": "accreditation",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 55,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/administration/",
+      "title": "Administration",
+      "finalUrl": "https://trinidadstate.edu/administration/",
+      "slug": "administration",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 58,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/admissions/",
+      "title": "Admissions",
+      "finalUrl": "https://trinidadstate.edu/admissions/",
+      "slug": "admissions",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 94,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/adult-education/",
+      "title": "Adult Education",
+      "finalUrl": "https://trinidadstate.edu/adult-education/",
+      "slug": "adult-education",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 53,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-item:nth-child(3) > a[href$=\"tsc\"][rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/advising/",
+      "title": "Academic Advising",
+      "finalUrl": "https://trinidadstate.edu/advising/",
+      "slug": "advising",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 67,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/apply/",
+      "title": "Apply to Trinidad State",
+      "finalUrl": "https://trinidadstate.edu/apply/",
+      "slug": "apply",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 55,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-item:nth-child(3) > a[href$=\"tsc\"][rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".navbar.navbar-expand-lg.navbar-light:nth-child(2) > .navbar-collapse.collapse"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/bookstore/",
+      "title": "Bookstore Home Page",
+      "finalUrl": "https://trinidadstate.edu/bookstore/",
+      "slug": "bookstore",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 49,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".navbar.navbar-expand-lg.navbar-light:nth-child(2) > .navbar-collapse.collapse"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/concurrent/",
+      "title": "Concurrent Enrollment",
+      "finalUrl": "https://trinidadstate.edu/concurrent/",
+      "slug": "concurrent",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 55,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/consumer/",
+      "title": "Consumer Information",
+      "finalUrl": "https://trinidadstate.edu/consumer/",
+      "slug": "consumer",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 61,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/contact/",
+      "title": "Contact Trinidad State",
+      "finalUrl": "https://trinidadstate.edu/contact/",
+      "slug": "contact",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 69,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/currentstudent/",
+      "title": "Current Student",
+      "finalUrl": "https://trinidadstate.edu/currentstudent/",
+      "slug": "currentstudent",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 57,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/departments/",
+      "title": "College Departments",
+      "finalUrl": "https://trinidadstate.edu/departments/",
+      "slug": "departments",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 70,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/employees/",
+      "title": "Trinidad State Employees",
+      "finalUrl": "https://trinidadstate.edu/employees/",
+      "slug": "employees",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 49,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/fia/",
+      "title": "Financial Aid",
+      "finalUrl": "https://trinidadstate.edu/fia/",
+      "slug": "fia",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 59,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/fia/net_price_calculator/",
+      "title": "Net Price Calculator",
+      "finalUrl": "https://trinidadstate.edu/fia/net_price_calculator/",
+      "slug": "fia-net-price-calculator",
+      "violations": [
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-required-parent?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag131"
+          ],
+          "nodes": 6,
+          "firstTargets": [
+            ".active",
+            ".npc-step[title=\"\"][role=\"option\"]:nth-child(2)",
+            ".npc-step[title=\"\"][role=\"option\"]:nth-child(3)",
+            ".npc-step[title=\"\"][role=\"option\"]:nth-child(4)",
+            ".npc-step[title=\"\"][role=\"option\"]:nth-child(5)"
+          ]
+        }
+      ],
+      "violationTotal": 6,
+      "incomplete": []
+    },
+    {
+      "url": "https://trinidadstate.edu/foundation/",
+      "title": "Foundation",
+      "finalUrl": "https://trinidadstate.edu/foundation/",
+      "slug": "foundation",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 64,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/general/",
+      "title": "General Information",
+      "finalUrl": "https://trinidadstate.edu/general/",
+      "slug": "general",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 62,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/hr/",
+      "title": "Human Resources",
+      "finalUrl": "https://trinidadstate.edu/hr/",
+      "slug": "hr",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 58,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/hsi/",
+      "title": "Hispanic-Serving Institution",
+      "finalUrl": "https://trinidadstate.edu/hsi/",
+      "slug": "hsi",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 51,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".navbar.navbar-expand-lg.navbar-light:nth-child(2) > .navbar-collapse.collapse"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/library/",
+      "title": "Samuel Freudenthal Memorial Library",
+      "finalUrl": "https://trinidadstate.edu/library/",
+      "slug": "library",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 56,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/locations/",
+      "title": "Locations at Trinidad State",
+      "finalUrl": "https://trinidadstate.edu/locations/",
+      "slug": "locations",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 77,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/locations/tc.html",
+      "title": "Trinidad Campus Locations",
+      "finalUrl": "https://trinidadstate.edu/locations/tc.html",
+      "slug": "locations-tc-html",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 63,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/locations/vc.html",
+      "title": "Valley Campus",
+      "finalUrl": "https://trinidadstate.edu/locations/vc.html",
+      "slug": "locations-vc-html",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 58,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/news/",
+      "title": "News Article Home Page",
+      "finalUrl": "https://trinidadstate.edu/news/",
+      "slug": "news",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 49,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/news/2023/1031.html",
+      "title": "The Aspen Institute Names Trinidad State College as a Top 150",
+      "finalUrl": "https://trinidadstate.edu/news/2023/1031.html",
+      "slug": "news-2023-1031-html",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 50,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/news/2026/0506.html",
+      "title": "Chancellor DeSanctis Names Dr. Dustin Eicke as Next President of Trinidad State College",
+      "finalUrl": "https://trinidadstate.edu/news/2026/0506.html",
+      "slug": "news-2026-0506-html",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 50,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/news/2026/0710.html",
+      "title": "CDHE Announces up to $1.5 Million in Grant Funds for Scholarship Programs Targeting High-Needs Industries",
+      "finalUrl": "https://trinidadstate.edu/news/2026/0710.html",
+      "slug": "news-2026-0710-html",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 50,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/news/2026/0729.html",
+      "title": "Colorado Opportunity Scholarship Initiative Awards $6.8 Million to Support Colorado Students in Pursuing Their Postsecondary Education",
+      "finalUrl": "https://trinidadstate.edu/news/2026/0729.html",
+      "slug": "news-2026-0729-html",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 50,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/news/2026/0731.html",
+      "title": "Return on Higher Education Remains Strong for Colorado Students",
+      "finalUrl": "https://trinidadstate.edu/news/2026/0731.html",
+      "slug": "news-2026-0731-html",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 50,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/news/2026/0812.html",
+      "title": "Trinidad State College Receives $125,000 Grant from The Denver Foundation’s Reisher Scholars Program",
+      "finalUrl": "https://trinidadstate.edu/news/2026/0812.html",
+      "slug": "news-2026-0812-html",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 50,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/non-traditional/",
+      "title": "Non-Traditional Students",
+      "finalUrl": "https://trinidadstate.edu/non-traditional/",
+      "slug": "non-traditional",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 75,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/online/",
+      "title": "Online Class Offerings",
+      "finalUrl": "https://trinidadstate.edu/online/",
+      "slug": "online",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 57,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/pathways/",
+      "title": "Academic Pathways",
+      "finalUrl": "https://trinidadstate.edu/pathways/",
+      "slug": "pathways",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 66,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/payment-options/",
+      "title": "Payment Options",
+      "finalUrl": "https://trinidadstate.edu/payment-options/",
+      "slug": "payment-options",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 54,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/people/",
+      "title": "People and Resources",
+      "finalUrl": "https://trinidadstate.edu/people/",
+      "slug": "people",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 55,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/presidential-welcome/",
+      "title": "Presidential Welcome",
+      "finalUrl": "https://trinidadstate.edu/presidential-welcome/",
+      "slug": "presidential-welcome",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 60,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/prospectivestudent/",
+      "title": "Prospective Student",
+      "finalUrl": "https://trinidadstate.edu/prospectivestudent/",
+      "slug": "prospectivestudent",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 57,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/quick-help/",
+      "title": "Quick Help Links",
+      "finalUrl": "https://trinidadstate.edu/quick-help/",
+      "slug": "quick-help",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#-\\31 "
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 50,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/residence-life/",
+      "title": "Residence Life",
+      "finalUrl": "https://trinidadstate.edu/residence-life/",
+      "slug": "residence-life",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 55,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/safe-campus/",
+      "title": "Safe Campus",
+      "finalUrl": "https://trinidadstate.edu/safe-campus/",
+      "slug": "safe-campus",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 49,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-item:nth-child(3) > a[href$=\"tsc\"][rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".navbar.navbar-expand-lg.navbar-light:nth-child(2) > .navbar-collapse.collapse"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/safe-campus/title9.html",
+      "title": "Nondiscrimination / Title IX",
+      "finalUrl": "https://trinidadstate.edu/safe-campus/title9.html",
+      "slug": "safe-campus-title9-html",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 49,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".navbar.navbar-expand-lg.navbar-light:nth-child(2) > .navbar-collapse.collapse"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/schedule/",
+      "title": "Class Schedule",
+      "finalUrl": "https://trinidadstate.edu/schedule/",
+      "slug": "schedule",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 60,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/scholarships/",
+      "title": "Scholarships / Grants",
+      "finalUrl": "https://trinidadstate.edu/scholarships/",
+      "slug": "scholarships",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 56,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/security/",
+      "title": "Campus Security",
+      "finalUrl": "https://trinidadstate.edu/security/",
+      "slug": "security",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 50,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".navbar.navbar-expand-lg.navbar-light:nth-child(2) > .navbar-collapse.collapse"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/services/",
+      "title": "College Services Home Page",
+      "finalUrl": "https://trinidadstate.edu/services/",
+      "slug": "services",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 76,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/strategic/",
+      "title": "Strategic Plan",
+      "finalUrl": "https://trinidadstate.edu/strategic/",
+      "slug": "strategic",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 54,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/student-life-tc/",
+      "title": "Student Life - Trinidad",
+      "finalUrl": "https://trinidadstate.edu/student-life-tc/",
+      "slug": "student-life-tc",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 54,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/student-life-vc/",
+      "title": "Student Life - Valley",
+      "finalUrl": "https://trinidadstate.edu/student-life-vc/",
+      "slug": "student-life-vc",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 54,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/students-international/",
+      "title": "International Students",
+      "finalUrl": "https://trinidadstate.edu/students-international/",
+      "slug": "students-international",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 55,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/transcripts/",
+      "title": "Transcripts",
+      "finalUrl": "https://trinidadstate.edu/transcripts/",
+      "slug": "transcripts",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 49,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-item:nth-child(3) > a[href$=\"tsc\"][rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".navbar.navbar-expand-lg.navbar-light:nth-child(2) > .navbar-collapse.collapse"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/transfer-in/",
+      "title": "Transfer In",
+      "finalUrl": "https://trinidadstate.edu/transfer-in/",
+      "slug": "transfer-in",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 59,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/tuition/",
+      "title": "TSC Tuition Home Page",
+      "finalUrl": "https://trinidadstate.edu/tuition/",
+      "slug": "tuition",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 54,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-item:nth-child(3) > a[href$=\"tsc\"][rel=\"noopener\"][target=\"_blank\"]"
+          ]
+        },
+        {
+          "id": "duplicate-id-aria",
+          "impact": "critical",
+          "help": "IDs used in ARIA and labels must be unique",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".navbar.navbar-expand-lg.navbar-light:nth-child(2) > .navbar-collapse.collapse"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://trinidadstate.edu/visit/",
+      "title": "Visit TSC Home Page",
+      "finalUrl": "https://trinidadstate.edu/visit/",
+      "slug": "visit",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#site-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 62,
+          "firstTargets": [
+            ".nav-link[href$=\"a-z.html\"]",
+            ".nav-link[href=\"/apply/index.html\"]",
+            ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
+          ]
+        }
+      ]
+    }
+  ],
+  "pagesHtml": {
+    "https://trinidadstate.edu/": "pages/home.html",
+    "https://trinidadstate.edu/100/": "pages/100.html",
+    "https://trinidadstate.edu/1925/articles/legacy.html": "pages/1925-articles-legacy-html.html",
+    "https://trinidadstate.edu/a-z.html": "pages/a-z-html.html",
+    "https://trinidadstate.edu/about/": "pages/about.html",
+    "https://trinidadstate.edu/about/web_policies.html": "pages/about-web-policies-html.html",
+    "https://trinidadstate.edu/academic-calendar/": "pages/academic-calendar.html",
+    "https://trinidadstate.edu/academics/": "pages/academics.html",
+    "https://trinidadstate.edu/accreditation/": "pages/accreditation.html",
+    "https://trinidadstate.edu/administration/": "pages/administration.html",
+    "https://trinidadstate.edu/admissions/": "pages/admissions.html",
+    "https://trinidadstate.edu/adult-education/": "pages/adult-education.html",
+    "https://trinidadstate.edu/advising/": "pages/advising.html",
+    "https://trinidadstate.edu/apply/": "pages/apply.html",
+    "https://trinidadstate.edu/bookstore/": "pages/bookstore.html",
+    "https://trinidadstate.edu/concurrent/": "pages/concurrent.html",
+    "https://trinidadstate.edu/consumer/": "pages/consumer.html",
+    "https://trinidadstate.edu/contact/": "pages/contact.html",
+    "https://trinidadstate.edu/currentstudent/": "pages/currentstudent.html",
+    "https://trinidadstate.edu/departments/": "pages/departments.html",
+    "https://trinidadstate.edu/employees/": "pages/employees.html",
+    "https://trinidadstate.edu/fia/": "pages/fia.html",
+    "https://trinidadstate.edu/fia/net_price_calculator/": "pages/fia-net-price-calculator.html",
+    "https://trinidadstate.edu/foundation/": "pages/foundation.html",
+    "https://trinidadstate.edu/general/": "pages/general.html",
+    "https://trinidadstate.edu/hr/": "pages/hr.html",
+    "https://trinidadstate.edu/hsi/": "pages/hsi.html",
+    "https://trinidadstate.edu/library/": "pages/library.html",
+    "https://trinidadstate.edu/locations/": "pages/locations.html",
+    "https://trinidadstate.edu/locations/tc.html": "pages/locations-tc-html.html",
+    "https://trinidadstate.edu/locations/vc.html": "pages/locations-vc-html.html",
+    "https://trinidadstate.edu/news/": "pages/news.html",
+    "https://trinidadstate.edu/news/2023/1031.html": "pages/news-2023-1031-html.html",
+    "https://trinidadstate.edu/news/2026/0506.html": "pages/news-2026-0506-html.html",
+    "https://trinidadstate.edu/news/2026/0710.html": "pages/news-2026-0710-html.html",
+    "https://trinidadstate.edu/news/2026/0729.html": "pages/news-2026-0729-html.html",
+    "https://trinidadstate.edu/news/2026/0731.html": "pages/news-2026-0731-html.html",
+    "https://trinidadstate.edu/news/2026/0812.html": "pages/news-2026-0812-html.html",
+    "https://trinidadstate.edu/non-traditional/": "pages/non-traditional.html",
+    "https://trinidadstate.edu/online/": "pages/online.html",
+    "https://trinidadstate.edu/pathways/": "pages/pathways.html",
+    "https://trinidadstate.edu/payment-options/": "pages/payment-options.html",
+    "https://trinidadstate.edu/people/": "pages/people.html",
+    "https://trinidadstate.edu/presidential-welcome/": "pages/presidential-welcome.html",
+    "https://trinidadstate.edu/prospectivestudent/": "pages/prospectivestudent.html",
+    "https://trinidadstate.edu/quick-help/": "pages/quick-help.html",
+    "https://trinidadstate.edu/residence-life/": "pages/residence-life.html",
+    "https://trinidadstate.edu/safe-campus/": "pages/safe-campus.html",
+    "https://trinidadstate.edu/safe-campus/title9.html": "pages/safe-campus-title9-html.html",
+    "https://trinidadstate.edu/schedule/": "pages/schedule.html",
+    "https://trinidadstate.edu/scholarships/": "pages/scholarships.html",
+    "https://trinidadstate.edu/security/": "pages/security.html",
+    "https://trinidadstate.edu/services/": "pages/services.html",
+    "https://trinidadstate.edu/strategic/": "pages/strategic.html",
+    "https://trinidadstate.edu/student-life-tc/": "pages/student-life-tc.html",
+    "https://trinidadstate.edu/student-life-vc/": "pages/student-life-vc.html",
+    "https://trinidadstate.edu/students-international/": "pages/students-international.html",
+    "https://trinidadstate.edu/transcripts/": "pages/transcripts.html",
+    "https://trinidadstate.edu/transfer-in/": "pages/transfer-in.html",
+    "https://trinidadstate.edu/tuition/": "pages/tuition.html",
+    "https://trinidadstate.edu/visit/": "pages/visit.html"
+  }
+}

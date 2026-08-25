@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WCAG 2.1 AA Audit — Trinidad State College (https://trinidadstate.edu)</title>
+<meta name="description" content="Automated weekly WCAG 2.1 AA accessibility audit results for https://trinidadstate.edu, produced with axe-core.">
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0 auto; padding: 2rem 1.25rem 4rem; max-width: 940px;
+    font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #212f3c; background: #fdfdfc;
+  }
+  header h1 { font-size: 1.7rem; margin: 0 0 .25rem; }
+  header .sub { color: #566573; margin: 0 0 1rem; }
+  .meta { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; color: #566573; font-size: .92rem; border-bottom: 1px solid #e3e7ea; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: .75rem; margin-bottom: 1rem; }
+  .card { background: #fff; border: 1px solid #e3e7ea; border-radius: 8px; padding: .9rem 1rem; }
+  .card .num { display: block; font-size: 1.9rem; font-weight: 700; line-height: 1.2; }
+  .card .lbl { color: #566573; font-size: .85rem; }
+  .sevcard { background: #fff; border: 1px solid #e3e7ea; border-radius: 8px; padding: .6rem .8rem; display: flex; align-items: baseline; gap: .5rem; }
+  .sevcard .num { font-size: 1.4rem; font-weight: 700; }
+  .sevcard .lbl { color: #566573; font-size: .82rem; }
+  .severities { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: .5rem; margin-bottom: 1.5rem; }
+  h2 { font-size: 1.2rem; margin: 2rem 0 .75rem; }
+  .spark { width: 100%; max-width: 680px; height: auto; background: #fff; border: 1px solid #e3e7ea; border-radius: 8px; }
+  .axis { font-size: 11px; fill: #7b8a8b; }
+  .delta { font-size: .9rem; font-weight: 600; }
+  .delta.up { color: #b03a2e; } .delta.down { color: #1e8449; }
+  .delta.flat, .delta.first { color: #7b8a8b; font-weight: 400; }
+  .page { background: #fff; border: 1px solid #e3e7ea; border-radius: 8px; padding: 1rem 1.25rem 1.25rem; margin-bottom: 1rem; }
+  .page.failed { border-color: #f0b27a; background: #fef9f3; }
+  .page h3 { margin: 0 0 .25rem; font-size: 1.05rem; word-break: break-all; }
+  .page h3 .title { font-weight: 400; color: #7b8a8b; font-size: .9rem; }
+  .page h4 { margin: 1rem 0 .5rem; font-size: .95rem; }
+  .count { color: #7b8a8b; font-weight: 400; font-size: .85rem; }
+  .total { margin: 0 0 .5rem; color: #566573; }
+  .clean { color: #1e8449; font-weight: 600; }
+  .warn { color: #b9770e; }
+  table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+  th, td { text-align: left; padding: .45rem .6rem; border-bottom: 1px solid #eef1f2; vertical-align: top; }
+  th { color: #566573; font-size: .8rem; text-transform: uppercase; letter-spacing: .03em; }
+  .targets { color: #7b8a8b; font-size: .82rem; word-break: break-all; max-width: 260px; }
+  code { background: #f4f6f7; padding: .1rem .35rem; border-radius: 4px; font-size: .85em; }
+  ul.inc { margin: .25rem 0 0; padding-left: 1.2rem; }
+  .note { color: #566573; font-size: .9rem; margin: .25rem 0 .75rem; }
+  table.pages { width: 100%; border-collapse: collapse; font-size: .9rem; }
+  table.pages thead th {
+    position: sticky; top: 0; background: #fdfdfc; z-index: 1;
+    border-bottom: 2px solid #e3e7ea;
+  }
+  table.pages th.n, table.pages td.n { text-align: right; white-space: nowrap; }
+  table.pages td.n.bad { color: #b03a2e; font-weight: 700; }
+  table.pages td.pg { max-width: 0; }
+  table.pages td.pg a { word-break: break-all; }
+  table.pages .pwurl { display: block; color: #7b8a8b; font-size: .8rem; margin-top: .1rem; word-break: break-all; }
+  table.pages td.pg .err { word-break: break-all; }
+  table.pages td.links { white-space: nowrap; text-align: right; }
+  table.pages a.pgrep {
+    color: #2e86c1; text-decoration: none; font-weight: 600;
+    border: 1px solid #cfe6f5; background: #f4fafd; padding: .15rem .5rem; border-radius: 6px;
+  }
+  table.pages a.pgrep:hover { background: #e8f4fb; }
+  table.pages tr.bad td.pg a { color: #b03a2e; }
+  footer { margin-top: 2.5rem; border-top: 1px solid #e3e7ea; padding-top: 1rem; font-size: .85rem; color: #566573; }
+  footer a { color: #2e86c1; }
+  .datamenu { display: flex; flex-wrap: wrap; gap: 1rem; margin: .5rem 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>WCAG 2.1 AA Audit — Trinidad State College</h1>
+  <p class="sub"><a href="https://trinidadstate.edu">https://trinidadstate.edu</a></p>
+</header>
+
+<div class="meta">
+  <span>Last audited: <strong>August 25, 2026</strong> (UTC)</span>
+  <span>Published runs: 1</span>
+  <span>Tooling: <a href="https://github.com/ThirstyHead/audit-trinidadstate.edu">axe-core + Playwright</a>, run weekly via GitHub Actions</span>
+  <span><span class="delta first">first published run</span></span>
+</div>
+
+<h2>Latest results</h2>
+<div class="cards">
+  <div class="card"><span class="num">6</span><span class="lbl">Node-level violations</span></div>
+  <div class="card"><span class="num">61</span><span class="lbl">Pages audited</span></div>
+  <div class="card"><span class="num">3575</span><span class="lbl">Need manual review</span></div>
+</div>
+<div class="severities">
+      <div class="sevcard" style="border-top:4px solid #b03a2e">
+        <span class="num">6</span>
+        <span class="lbl">Critical</span>
+      </div>
+      <div class="sevcard" style="border-top:4px solid #ca6f1e">
+        <span class="num">0</span>
+        <span class="lbl">Serious</span>
+      </div>
+      <div class="sevcard" style="border-top:4px solid #b7950b">
+        <span class="num">0</span>
+        <span class="lbl">Moderate</span>
+      </div>
+      <div class="sevcard" style="border-top:4px solid #707b7c">
+        <span class="num">0</span>
+        <span class="lbl">Minor</span>
+      </div></div>
+
+<h2>Trend</h2>
+<p class="count">The trend chart appears once at least two runs have been published.</p>
+
+<h2>Pages</h2>
+<p class="note">Every page audited in this run. “Audit report” opens that page's full axe report — violations, needs-review, and passes, with node-level detail.</p>
+
+<table class="pages">
+  <thead><tr><th class="pg">Page</th><th class="n">Violations</th><th class="n">Needs review</th><th>Report</th></tr></thead>
+  <tbody>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/" rel="noopener">Trinidad State College Home Page</a> <span class="pwurl">https://trinidadstate.edu/</span></td>
+      <td class="n">0</td>
+      <td class="n">107</td>
+      <td class="links"><a class="pgrep" href="pages/home.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/100/" rel="noopener">100th Anniversary</a> <span class="pwurl">https://trinidadstate.edu/100/</span></td>
+      <td class="n">0</td>
+      <td class="n">53</td>
+      <td class="links"><a class="pgrep" href="pages/100.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/1925/articles/legacy.html" rel="noopener">Society of 1925 Article Legacy</a> <span class="pwurl">https://trinidadstate.edu/1925/articles/legacy.html</span></td>
+      <td class="n">0</td>
+      <td class="n">52</td>
+      <td class="links"><a class="pgrep" href="pages/1925-articles-legacy-html.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/a-z.html" rel="noopener">A to Z Index</a> <span class="pwurl">https://trinidadstate.edu/a-z.html</span></td>
+      <td class="n">0</td>
+      <td class="n">57</td>
+      <td class="links"><a class="pgrep" href="pages/a-z-html.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/about/" rel="noopener">About Trinidad State</a> <span class="pwurl">https://trinidadstate.edu/about/</span></td>
+      <td class="n">0</td>
+      <td class="n">70</td>
+      <td class="links"><a class="pgrep" href="pages/about.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/about/web_policies.html" rel="noopener">Web Policies</a> <span class="pwurl">https://trinidadstate.edu/about/web_policies.html</span></td>
+      <td class="n">0</td>
+      <td class="n">51</td>
+      <td class="links"><a class="pgrep" href="pages/about-web-policies-html.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/academic-calendar/" rel="noopener">Trinidad State Academic Calendar</a> <span class="pwurl">https://trinidadstate.edu/academic-calendar/</span></td>
+      <td class="n">0</td>
+      <td class="n">55</td>
+      <td class="links"><a class="pgrep" href="pages/academic-calendar.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/academics/" rel="noopener">Academic Programs</a> <span class="pwurl">https://trinidadstate.edu/academics/</span></td>
+      <td class="n">0</td>
+      <td class="n">70</td>
+      <td class="links"><a class="pgrep" href="pages/academics.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/accreditation/" rel="noopener">Accreditations and Affiliations</a> <span class="pwurl">https://trinidadstate.edu/accreditation/</span></td>
+      <td class="n">0</td>
+      <td class="n">56</td>
+      <td class="links"><a class="pgrep" href="pages/accreditation.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/administration/" rel="noopener">Administration</a> <span class="pwurl">https://trinidadstate.edu/administration/</span></td>
+      <td class="n">0</td>
+      <td class="n">59</td>
+      <td class="links"><a class="pgrep" href="pages/administration.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/admissions/" rel="noopener">Admissions</a> <span class="pwurl">https://trinidadstate.edu/admissions/</span></td>
+      <td class="n">0</td>
+      <td class="n">95</td>
+      <td class="links"><a class="pgrep" href="pages/admissions.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/adult-education/" rel="noopener">Adult Education</a> <span class="pwurl">https://trinidadstate.edu/adult-education/</span></td>
+      <td class="n">0</td>
+      <td class="n">54</td>
+      <td class="links"><a class="pgrep" href="pages/adult-education.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/advising/" rel="noopener">Academic Advising</a> <span class="pwurl">https://trinidadstate.edu/advising/</span></td>
+      <td class="n">0</td>
+      <td class="n">68</td>
+      <td class="links"><a class="pgrep" href="pages/advising.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/apply/" rel="noopener">Apply to Trinidad State</a> <span class="pwurl">https://trinidadstate.edu/apply/</span></td>
+      <td class="n">0</td>
+      <td class="n">57</td>
+      <td class="links"><a class="pgrep" href="pages/apply.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/bookstore/" rel="noopener">Bookstore Home Page</a> <span class="pwurl">https://trinidadstate.edu/bookstore/</span></td>
+      <td class="n">0</td>
+      <td class="n">51</td>
+      <td class="links"><a class="pgrep" href="pages/bookstore.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/concurrent/" rel="noopener">Concurrent Enrollment</a> <span class="pwurl">https://trinidadstate.edu/concurrent/</span></td>
+      <td class="n">0</td>
+      <td class="n">56</td>
+      <td class="links"><a class="pgrep" href="pages/concurrent.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/consumer/" rel="noopener">Consumer Information</a> <span class="pwurl">https://trinidadstate.edu/consumer/</span></td>
+      <td class="n">0</td>
+      <td class="n">62</td>
+      <td class="links"><a class="pgrep" href="pages/consumer.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/contact/" rel="noopener">Contact Trinidad State</a> <span class="pwurl">https://trinidadstate.edu/contact/</span></td>
+      <td class="n">0</td>
+      <td class="n">70</td>
+      <td class="links"><a class="pgrep" href="pages/contact.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/currentstudent/" rel="noopener">Current Student</a> <span class="pwurl">https://trinidadstate.edu/currentstudent/</span></td>
+      <td class="n">0</td>
+      <td class="n">58</td>
+      <td class="links"><a class="pgrep" href="pages/currentstudent.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/departments/" rel="noopener">College Departments</a> <span class="pwurl">https://trinidadstate.edu/departments/</span></td>
+      <td class="n">0</td>
+      <td class="n">71</td>
+      <td class="links"><a class="pgrep" href="pages/departments.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/employees/" rel="noopener">Trinidad State Employees</a> <span class="pwurl">https://trinidadstate.edu/employees/</span></td>
+      <td class="n">0</td>
+      <td class="n">50</td>
+      <td class="links"><a class="pgrep" href="pages/employees.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/fia/" rel="noopener">Financial Aid</a> <span class="pwurl">https://trinidadstate.edu/fia/</span></td>
+      <td class="n">0</td>
+      <td class="n">60</td>
+      <td class="links"><a class="pgrep" href="pages/fia.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://trinidadstate.edu/fia/net_price_calculator/" rel="noopener">Net Price Calculator</a> <span class="pwurl">https://trinidadstate.edu/fia/net_price_calculator/</span></td>
+      <td class="n bad">6</td>
+      <td class="n">0</td>
+      <td class="links"><a class="pgrep" href="pages/fia-net-price-calculator.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/foundation/" rel="noopener">Foundation</a> <span class="pwurl">https://trinidadstate.edu/foundation/</span></td>
+      <td class="n">0</td>
+      <td class="n">65</td>
+      <td class="links"><a class="pgrep" href="pages/foundation.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/general/" rel="noopener">General Information</a> <span class="pwurl">https://trinidadstate.edu/general/</span></td>
+      <td class="n">0</td>
+      <td class="n">63</td>
+      <td class="links"><a class="pgrep" href="pages/general.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/hr/" rel="noopener">Human Resources</a> <span class="pwurl">https://trinidadstate.edu/hr/</span></td>
+      <td class="n">0</td>
+      <td class="n">59</td>
+      <td class="links"><a class="pgrep" href="pages/hr.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/hsi/" rel="noopener">Hispanic-Serving Institution</a> <span class="pwurl">https://trinidadstate.edu/hsi/</span></td>
+      <td class="n">0</td>
+      <td class="n">53</td>
+      <td class="links"><a class="pgrep" href="pages/hsi.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/library/" rel="noopener">Samuel Freudenthal Memorial Library</a> <span class="pwurl">https://trinidadstate.edu/library/</span></td>
+      <td class="n">0</td>
+      <td class="n">57</td>
+      <td class="links"><a class="pgrep" href="pages/library.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/locations/" rel="noopener">Locations at Trinidad State</a> <span class="pwurl">https://trinidadstate.edu/locations/</span></td>
+      <td class="n">0</td>
+      <td class="n">78</td>
+      <td class="links"><a class="pgrep" href="pages/locations.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/locations/tc.html" rel="noopener">Trinidad Campus Locations</a> <span class="pwurl">https://trinidadstate.edu/locations/tc.html</span></td>
+      <td class="n">0</td>
+      <td class="n">64</td>
+      <td class="links"><a class="pgrep" href="pages/locations-tc-html.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/locations/vc.html" rel="noopener">Valley Campus</a> <span class="pwurl">https://trinidadstate.edu/locations/vc.html</span></td>
+      <td class="n">0</td>
+      <td class="n">59</td>
+      <td class="links"><a class="pgrep" href="pages/locations-vc-html.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/news/" rel="noopener">News Article Home Page</a> <span class="pwurl">https://trinidadstate.edu/news/</span></td>
+      <td class="n">0</td>
+      <td class="n">50</td>
+      <td class="links"><a class="pgrep" href="pages/news.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/news/2023/1031.html" rel="noopener">The Aspen Institute Names Trinidad State College as a Top 150</a> <span class="pwurl">https://trinidadstate.edu/news/2023/1031.html</span></td>
+      <td class="n">0</td>
+      <td class="n">51</td>
+      <td class="links"><a class="pgrep" href="pages/news-2023-1031-html.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/news/2026/0506.html" rel="noopener">Chancellor DeSanctis Names Dr. Dustin Eicke as Next President of Trinidad State College</a> <span class="pwurl">https://trinidadstate.edu/news/2026/0506.html</span></td>
+      <td class="n">0</td>
+      <td class="n">51</td>
+      <td class="links"><a class="pgrep" href="pages/news-2026-0506-html.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/news/2026/0710.html" rel="noopener">CDHE Announces up to $1.5 Million in Grant Funds for Scholarship Programs Targeting High-Needs Industries</a> <span class="pwurl">https://trinidadstate.edu/news/2026/0710.html</span></td>
+      <td class="n">0</td>
+      <td class="n">51</td>
+      <td class="links"><a class="pgrep" href="pages/news-2026-0710-html.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/news/2026/0729.html" rel="noopener">Colorado Opportunity Scholarship Initiative Awards $6.8 Million to Support Colorado Students in Pursuing Their Postsecondary Education</a> <span class="pwurl">https://trinidadstate.edu/news/2026/0729.html</span></td>
+      <td class="n">0</td>
+      <td class="n">51</td>
+      <td class="links"><a class="pgrep" href="pages/news-2026-0729-html.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/news/2026/0731.html" rel="noopener">Return on Higher Education Remains Strong for Colorado Students</a> <span class="pwurl">https://trinidadstate.edu/news/2026/0731.html</span></td>
+      <td class="n">0</td>
+      <td class="n">51</td>
+      <td class="links"><a class="pgrep" href="pages/news-2026-0731-html.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/news/2026/0812.html" rel="noopener">Trinidad State College Receives $125,000 Grant from The Denver Foundation’s Reisher Scholars Program</a> <span class="pwurl">https://trinidadstate.edu/news/2026/0812.html</span></td>
+      <td class="n">0</td>
+      <td class="n">51</td>
+      <td class="links"><a class="pgrep" href="pages/news-2026-0812-html.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/non-traditional/" rel="noopener">Non-Traditional Students</a> <span class="pwurl">https://trinidadstate.edu/non-traditional/</span></td>
+      <td class="n">0</td>
+      <td class="n">76</td>
+      <td class="links"><a class="pgrep" href="pages/non-traditional.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/online/" rel="noopener">Online Class Offerings</a> <span class="pwurl">https://trinidadstate.edu/online/</span></td>
+      <td class="n">0</td>
+      <td class="n">58</td>
+      <td class="links"><a class="pgrep" href="pages/online.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/pathways/" rel="noopener">Academic Pathways</a> <span class="pwurl">https://trinidadstate.edu/pathways/</span></td>
+      <td class="n">0</td>
+      <td class="n">67</td>
+      <td class="links"><a class="pgrep" href="pages/pathways.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/payment-options/" rel="noopener">Payment Options</a> <span class="pwurl">https://trinidadstate.edu/payment-options/</span></td>
+      <td class="n">0</td>
+      <td class="n">55</td>
+      <td class="links"><a class="pgrep" href="pages/payment-options.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/people/" rel="noopener">People and Resources</a> <span class="pwurl">https://trinidadstate.edu/people/</span></td>
+      <td class="n">0</td>
+      <td class="n">56</td>
+      <td class="links"><a class="pgrep" href="pages/people.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/presidential-welcome/" rel="noopener">Presidential Welcome</a> <span class="pwurl">https://trinidadstate.edu/presidential-welcome/</span></td>
+      <td class="n">0</td>
+      <td class="n">61</td>
+      <td class="links"><a class="pgrep" href="pages/presidential-welcome.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/prospectivestudent/" rel="noopener">Prospective Student</a> <span class="pwurl">https://trinidadstate.edu/prospectivestudent/</span></td>
+      <td class="n">0</td>
+      <td class="n">58</td>
+      <td class="links"><a class="pgrep" href="pages/prospectivestudent.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/quick-help/" rel="noopener">Quick Help Links</a> <span class="pwurl">https://trinidadstate.edu/quick-help/</span></td>
+      <td class="n">0</td>
+      <td class="n">52</td>
+      <td class="links"><a class="pgrep" href="pages/quick-help.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/residence-life/" rel="noopener">Residence Life</a> <span class="pwurl">https://trinidadstate.edu/residence-life/</span></td>
+      <td class="n">0</td>
+      <td class="n">56</td>
+      <td class="links"><a class="pgrep" href="pages/residence-life.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/safe-campus/" rel="noopener">Safe Campus</a> <span class="pwurl">https://trinidadstate.edu/safe-campus/</span></td>
+      <td class="n">0</td>
+      <td class="n">51</td>
+      <td class="links"><a class="pgrep" href="pages/safe-campus.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/safe-campus/title9.html" rel="noopener">Nondiscrimination / Title IX</a> <span class="pwurl">https://trinidadstate.edu/safe-campus/title9.html</span></td>
+      <td class="n">0</td>
+      <td class="n">51</td>
+      <td class="links"><a class="pgrep" href="pages/safe-campus-title9-html.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/schedule/" rel="noopener">Class Schedule</a> <span class="pwurl">https://trinidadstate.edu/schedule/</span></td>
+      <td class="n">0</td>
+      <td class="n">61</td>
+      <td class="links"><a class="pgrep" href="pages/schedule.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/scholarships/" rel="noopener">Scholarships / Grants</a> <span class="pwurl">https://trinidadstate.edu/scholarships/</span></td>
+      <td class="n">0</td>
+      <td class="n">57</td>
+      <td class="links"><a class="pgrep" href="pages/scholarships.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/security/" rel="noopener">Campus Security</a> <span class="pwurl">https://trinidadstate.edu/security/</span></td>
+      <td class="n">0</td>
+      <td class="n">52</td>
+      <td class="links"><a class="pgrep" href="pages/security.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/services/" rel="noopener">College Services Home Page</a> <span class="pwurl">https://trinidadstate.edu/services/</span></td>
+      <td class="n">0</td>
+      <td class="n">77</td>
+      <td class="links"><a class="pgrep" href="pages/services.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/strategic/" rel="noopener">Strategic Plan</a> <span class="pwurl">https://trinidadstate.edu/strategic/</span></td>
+      <td class="n">0</td>
+      <td class="n">55</td>
+      <td class="links"><a class="pgrep" href="pages/strategic.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/student-life-tc/" rel="noopener">Student Life - Trinidad</a> <span class="pwurl">https://trinidadstate.edu/student-life-tc/</span></td>
+      <td class="n">0</td>
+      <td class="n">55</td>
+      <td class="links"><a class="pgrep" href="pages/student-life-tc.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/student-life-vc/" rel="noopener">Student Life - Valley</a> <span class="pwurl">https://trinidadstate.edu/student-life-vc/</span></td>
+      <td class="n">0</td>
+      <td class="n">55</td>
+      <td class="links"><a class="pgrep" href="pages/student-life-vc.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/students-international/" rel="noopener">International Students</a> <span class="pwurl">https://trinidadstate.edu/students-international/</span></td>
+      <td class="n">0</td>
+      <td class="n">56</td>
+      <td class="links"><a class="pgrep" href="pages/students-international.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/transcripts/" rel="noopener">Transcripts</a> <span class="pwurl">https://trinidadstate.edu/transcripts/</span></td>
+      <td class="n">0</td>
+      <td class="n">51</td>
+      <td class="links"><a class="pgrep" href="pages/transcripts.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/transfer-in/" rel="noopener">Transfer In</a> <span class="pwurl">https://trinidadstate.edu/transfer-in/</span></td>
+      <td class="n">0</td>
+      <td class="n">60</td>
+      <td class="links"><a class="pgrep" href="pages/transfer-in.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/tuition/" rel="noopener">TSC Tuition Home Page</a> <span class="pwurl">https://trinidadstate.edu/tuition/</span></td>
+      <td class="n">0</td>
+      <td class="n">56</td>
+      <td class="links"><a class="pgrep" href="pages/tuition.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://trinidadstate.edu/visit/" rel="noopener">Visit TSC Home Page</a> <span class="pwurl">https://trinidadstate.edu/visit/</span></td>
+      <td class="n">0</td>
+      <td class="n">63</td>
+      <td class="links"><a class="pgrep" href="pages/visit.html">Audit report</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Data</h2>
+<div class="datamenu">
+  <a href="latest.json">latest.json</a>
+  <a href="history.json">history.json</a>
+  <a href="https://github.com/ThirstyHead/tsc-audit/blob/main/reports/axe-2026-08-25T06-17-42-456Z.json">Raw report (latest)</a>
+  <a href="https://github.com/ThirstyHead/tsc-audit/tree/main/reports">All raw reports</a>
+</div>
+
+<footer>
+  <p><strong>About this audit.</strong> Results are produced automatically by
+  <a href="https://github.com/dequelabs/axe-core">axe-core</a> (Deque) against the WCAG 2.1 A/AA rule set,
+  on a weekly schedule, by the open-source tooling in
+  <a href="https://github.com/ThirstyHead/audit-trinidadstate.edu">ThirstyHead/audit-trinidadstate.edu</a>.
+  Automated tooling detects only a subset of accessibility failures and does not replace
+  manual or assistive-technology testing. “Needs manual review” items are results axe
+  could not determine automatically.</p>
+  <p>Generated 2026-08-25T06:17:43.543Z · <a href="https://thirstyhead.com/tsc-audit/">thirstyhead.com/tsc-audit/</a></p>
+</footer>
+</body>
+</html>
