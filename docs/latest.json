@@ -1,8 +1,8 @@
 {
-  "siteGenerated": "2026-08-25T06:17:43.543Z",
+  "siteGenerated": "2026-08-25T21:59:49.733Z",
   "sourceRepo": "https://github.com/ThirstyHead/audit-trinidadstate.edu",
   "report": {
-    "generated": "2026-08-25T06:17:42.456Z",
+    "generated": "2026-08-25T21:59:47.354Z",
     "tags": [
       "wcag2a",
       "wcag2aa",
@@ -39,7 +39,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 106,
+            "nodes": 105,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
