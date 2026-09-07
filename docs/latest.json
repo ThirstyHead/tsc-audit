@@ -1,8 +1,8 @@
 {
-  "siteGenerated": "2026-08-31T13:12:27.249Z",
+  "siteGenerated": "2026-09-07T12:04:34.466Z",
   "sourceRepo": "https://github.com/ThirstyHead/audit-trinidadstate.edu",
   "report": {
-    "generated": "2026-08-31T13:12:26.218Z",
+    "generated": "2026-09-07T12:04:33.357Z",
     "tags": [
       "wcag2a",
       "wcag2aa",
@@ -459,7 +459,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 58,
+            "nodes": 56,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -535,7 +535,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 53,
+            "nodes": 57,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -662,24 +662,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 49,
+            "nodes": 57,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
               ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
-            ]
-          },
-          {
-            "id": "duplicate-id-aria",
-            "impact": "critical",
-            "help": "IDs used in ARIA and labels must be unique",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              ".navbar.navbar-expand-lg.navbar-light:nth-child(2) > .navbar-collapse.collapse"
             ]
           }
         ]
@@ -2110,24 +2097,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 50,
+            "nodes": 70,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
               ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
-            ]
-          },
-          {
-            "id": "duplicate-id-aria",
-            "impact": "critical",
-            "help": "IDs used in ARIA and labels must be unique",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              ".navbar.navbar-expand-lg.navbar-light:nth-child(2) > .navbar-collapse.collapse"
             ]
           }
         ]
