@@ -1,8 +1,8 @@
 {
-  "siteGenerated": "2026-09-14T12:19:45.125Z",
+  "siteGenerated": "2026-09-21T12:27:48.072Z",
   "sourceRepo": "https://github.com/ThirstyHead/audit-trinidadstate.edu",
   "report": {
-    "generated": "2026-09-14T12:19:43.985Z",
+    "generated": "2026-09-21T12:27:46.582Z",
     "tags": [
       "wcag2a",
       "wcag2aa",
@@ -39,7 +39,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 105,
+            "nodes": 106,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -103,7 +103,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 49,
+            "nodes": 50,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -154,7 +154,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 50,
+            "nodes": 51,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -205,7 +205,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 56,
+            "nodes": 57,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -243,7 +243,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 68,
+            "nodes": 69,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -294,7 +294,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 49,
+            "nodes": 50,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -345,7 +345,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 54,
+            "nodes": 55,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -383,7 +383,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 69,
+            "nodes": 70,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -421,7 +421,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 55,
+            "nodes": 56,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -459,7 +459,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 56,
+            "nodes": 57,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -497,7 +497,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 94,
+            "nodes": 95,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -535,7 +535,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 57,
+            "nodes": 58,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -573,7 +573,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 67,
+            "nodes": 68,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -611,7 +611,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 55,
+            "nodes": 56,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -662,7 +662,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 57,
+            "nodes": 58,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -700,7 +700,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 55,
+            "nodes": 56,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -738,7 +738,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 61,
+            "nodes": 62,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -776,7 +776,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 69,
+            "nodes": 70,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -814,7 +814,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 57,
+            "nodes": 58,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -852,7 +852,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 70,
+            "nodes": 71,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -890,7 +890,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 51,
+            "nodes": 52,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -928,7 +928,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 59,
+            "nodes": 60,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -994,7 +994,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 64,
+            "nodes": 65,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1032,7 +1032,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 62,
+            "nodes": 63,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1070,7 +1070,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 58,
+            "nodes": 59,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1108,7 +1108,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 51,
+            "nodes": 52,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1159,7 +1159,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 56,
+            "nodes": 57,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1197,7 +1197,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 77,
+            "nodes": 78,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1235,7 +1235,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 63,
+            "nodes": 64,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1273,7 +1273,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 58,
+            "nodes": 59,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1311,7 +1311,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 49,
+            "nodes": 50,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1349,7 +1349,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 50,
+            "nodes": 51,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1387,7 +1387,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 50,
+            "nodes": 51,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1425,7 +1425,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 50,
+            "nodes": 51,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1463,7 +1463,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 50,
+            "nodes": 51,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1501,7 +1501,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 50,
+            "nodes": 51,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1539,7 +1539,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 50,
+            "nodes": 51,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1577,7 +1577,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 75,
+            "nodes": 76,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1615,7 +1615,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 57,
+            "nodes": 58,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1653,7 +1653,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 66,
+            "nodes": 67,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1691,7 +1691,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 54,
+            "nodes": 55,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1729,7 +1729,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 55,
+            "nodes": 56,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1767,7 +1767,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 60,
+            "nodes": 61,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1805,7 +1805,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 57,
+            "nodes": 58,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1856,7 +1856,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 50,
+            "nodes": 51,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1894,7 +1894,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 55,
+            "nodes": 56,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1932,7 +1932,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 56,
+            "nodes": 57,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1970,7 +1970,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 49,
+            "nodes": 50,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -2021,7 +2021,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 57,
+            "nodes": 58,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -2059,7 +2059,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 56,
+            "nodes": 57,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -2097,7 +2097,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 70,
+            "nodes": 71,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -2135,7 +2135,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 76,
+            "nodes": 77,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -2173,7 +2173,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 54,
+            "nodes": 55,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -2211,7 +2211,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 54,
+            "nodes": 55,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -2249,7 +2249,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 54,
+            "nodes": 55,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -2287,7 +2287,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 55,
+            "nodes": 56,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -2325,7 +2325,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 49,
+            "nodes": 50,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -2376,7 +2376,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 59,
+            "nodes": 60,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -2414,7 +2414,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 54,
+            "nodes": 55,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -2465,7 +2465,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 62,
+            "nodes": 63,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
