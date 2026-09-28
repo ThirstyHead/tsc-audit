@@ -1,8 +1,8 @@
 {
-  "siteGenerated": "2026-09-21T12:27:48.072Z",
+  "siteGenerated": "2026-09-28T13:25:09.871Z",
   "sourceRepo": "https://github.com/ThirstyHead/audit-trinidadstate.edu",
   "report": {
-    "generated": "2026-09-21T12:27:46.582Z",
+    "generated": "2026-09-28T13:25:08.805Z",
     "tags": [
       "wcag2a",
       "wcag2aa",
@@ -994,7 +994,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 65,
+            "nodes": 64,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1836,19 +1836,6 @@
             ]
           },
           {
-            "id": "aria-valid-attr-value",
-            "impact": "critical",
-            "help": "ARIA attributes must conform to valid values",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              "#-\\31 "
-            ]
-          },
-          {
             "id": "color-contrast",
             "impact": "serious",
             "help": "Elements must meet minimum color contrast ratio thresholds",
@@ -1856,7 +1843,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 51,
+            "nodes": 55,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -1970,24 +1957,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 50,
+            "nodes": 67,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
               ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
-            ]
-          },
-          {
-            "id": "duplicate-id-aria",
-            "impact": "critical",
-            "help": "IDs used in ARIA and labels must be unique",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              ".navbar.navbar-expand-lg.navbar-light:nth-child(2) > .navbar-collapse.collapse"
             ]
           }
         ]
