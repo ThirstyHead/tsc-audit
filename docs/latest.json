@@ -1,8 +1,8 @@
 {
-  "siteGenerated": "2026-09-28T13:25:09.871Z",
+  "siteGenerated": "2026-10-05T14:08:17.221Z",
   "sourceRepo": "https://github.com/ThirstyHead/audit-trinidadstate.edu",
   "report": {
-    "generated": "2026-09-28T13:25:08.805Z",
+    "generated": "2026-10-05T14:08:16.231Z",
     "tags": [
       "wcag2a",
       "wcag2aa",
@@ -39,7 +39,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 106,
+            "nodes": 107,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -103,24 +103,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 50,
+            "nodes": 62,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
-              ".nav-item:nth-child(3) > a[href$=\"tsc\"][rel=\"noopener\"][target=\"_blank\"]"
-            ]
-          },
-          {
-            "id": "duplicate-id-aria",
-            "impact": "critical",
-            "help": "IDs used in ARIA and labels must be unique",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              ".navbar.navbar-expand-lg.navbar-light:nth-child(2) > .navbar-collapse.collapse"
+              ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
             ]
           }
         ]
@@ -243,7 +230,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 69,
+            "nodes": 65,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
@@ -294,24 +281,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 50,
+            "nodes": 59,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
               ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
-            ]
-          },
-          {
-            "id": "duplicate-id-aria",
-            "impact": "critical",
-            "help": "IDs used in ARIA and labels must be unique",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              ".navbar.navbar-expand-lg.navbar-light:nth-child(2) > .navbar-collapse.collapse"
             ]
           }
         ]
@@ -2299,24 +2273,11 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 50,
+            "nodes": 54,
             "firstTargets": [
               ".nav-link[href$=\"a-z.html\"]",
               ".nav-link[href=\"/apply/index.html\"]",
-              ".nav-item:nth-child(3) > a[href$=\"tsc\"][rel=\"noopener\"][target=\"_blank\"]"
-            ]
-          },
-          {
-            "id": "duplicate-id-aria",
-            "impact": "critical",
-            "help": "IDs used in ARIA and labels must be unique",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              ".navbar.navbar-expand-lg.navbar-light:nth-child(2) > .navbar-collapse.collapse"
+              ".nav-link[href$=\"tsc\"][rel=\"noopener\"]"
             ]
           }
         ]
